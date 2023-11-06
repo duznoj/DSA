@@ -1,35 +1,35 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void pattern1(int );
-void pattern2(int );
-void pattern3(int );
-void pattern4(int );
-void pattern5(int );
-void pattern6(int );
-void pattern7(int );
-void pattern8(int );
-void pattern9(int );
-void pattern10(int );
-void pattern11(int );
-void pattern12(int );
-void pattern13(int );
-void pattern14(int );
-void pattern15(int );
-void pattern16(int );
-void pattern17(int );
-void pattern18(int );
-void pattern19(int );
-void pattern20(int );
-void pattern21(int );
-void pattern22(int );
+void pattern1(int);
+void pattern2(int);
+void pattern3(int);
+void pattern4(int);
+void pattern5(int);
+void pattern6(int);
+void pattern7(int);
+void pattern8(int);
+void pattern9(int);
+void pattern10(int);
+void pattern11(int);
+void pattern12(int);
+void pattern13(int);
+void pattern14(int);
+void pattern15(int);
+void pattern16(int);
+void pattern17(int);
+void pattern18(int);
+void pattern19(int);
+void pattern20(int);
+void pattern21(int);
+void pattern22(int);
 
 
 int main() {
     int n;
     cout << "Enter number of Rows:";
     cin >> n;
-    pattern22(n);
+    pattern5(n);
 }
 
 void pattern1(int rows) {
@@ -70,7 +70,7 @@ void pattern4(int rows) {
 
 void pattern5(int rows ) {
     for(int i=0; i<rows; i++) {
-        for(int j=rows-i; j>=1; j--) {
+        for(int j=0; j<rows-i; j++) {
             cout << "*";
         }
         cout << endl; 

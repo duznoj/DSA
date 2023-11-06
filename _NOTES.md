@@ -1,0 +1,1 @@
+### Come back to pattern printing for pattern 22 logic, and revising couting without having to think much
