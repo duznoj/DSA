@@ -11,9 +11,9 @@
 
     to do this using a single pointer: wkt, right = size-left-1
     => base case: left >= size-left-1
-                => 2*left = size-1
+                => 2*left  = size-1
                 => left = size/2 - 1/2 (Since integral division, 1/2 = 0.5 =0)
-                => left = size/2    
+                => left = size/2  
 
 */
 
@@ -24,11 +24,12 @@ using namespace std;
 
 int main(int argc, char * argv[]) {
     int a[] = {1, 2, 3, 4, 5};
+
     array_rev(a, 0, 6);
-    for (int i = 0; i < 6; i++) {
+
+    for (int i = 0; i < 5; i++) {
         cout << a[i] << endl;
     }
-    cout << endl;
     
     return 0;
 }

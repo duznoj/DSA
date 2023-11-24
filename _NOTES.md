@@ -1,1 +1,1 @@
-### Come back to pattern printing for pattern 22 logic, and revising couting without having to think much
+### Come back to pattern printing for pattern 22 logic, and revising counting without having to think much
